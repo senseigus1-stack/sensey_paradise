@@ -623,13 +623,13 @@ class MainWindow(QMainWindow):
 
         # Adding rest of the menus.
         action_update = QAction('Update', self)
-        action_update.triggered.connect(lambda _: open_url(url='https://github.com/kochlisGit/ProphitBet-Soccer-Bets-Predictor/tree/main'))
+        action_update.triggered.connect(lambda _: open_url(url='https://github.com/senseigus1-stack/sensey_paradise'))
 
         action_bug = QAction('Submit Bug', self)
-        action_bug.triggered.connect(lambda _: open_url(url='https://github.com/kochlisGit/ProphitBet-Soccer-Bets-Predictor/issues/new'))
+        action_bug.triggered.connect(lambda _: open_url(url='https://github.com/senseigus1-stack/sensey_paradise'))
 
         action_donation = QAction('Buy me a Coffee!', self)
-        action_donation.triggered.connect(lambda _: open_url(url='https://www.paypal.com/donate/?hosted_button_id=AK3SEFDGVAWFE'))
+        action_donation.triggered.connect(lambda _: open_url(url='По номеру переведите на хлебушек с маслом'))
 
         menu_help.addMenu(lessons_menu)
         menu_help.addAction(action_update)
